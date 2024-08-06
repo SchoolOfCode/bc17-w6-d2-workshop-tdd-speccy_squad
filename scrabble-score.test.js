@@ -1,4 +1,4 @@
-import { calculateScrabbleScore } from "./scrabble-score";
+import { calculateScrabbleScore, letters } from "./scrabble-score"
 import { test } from "vitest";
 import { expect } from "vitest";
 
@@ -7,6 +7,7 @@ import { expect } from "vitest";
 //    - The test you wrote should fail at first. This is because you wrote the test before writing the code to make it pass.
 //    - This is the "red" stage in the TDD cycle (red -> green -> refactor)
 
-test("Score for A = 1", () => {
-  expect(calculateScrabbleScore('A')).toEqual(1);
+test("Score for ABBA = 8", () => {
+  expect(calculateScrabbleScore(A,B,B,A)).toEqual(8);
 });
+
