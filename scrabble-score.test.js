@@ -8,5 +8,5 @@ import { expect } from "vitest";
 //    - This is the "red" stage in the TDD cycle (red -> green -> refactor)
 
 test("Score for A = 1", () => {
-  expect(calculateScrabbleScore(A).toEqual(1));
+  expect(calculateScrabbleScore('A')).toEqual(1);
 });
