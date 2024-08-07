@@ -8,6 +8,24 @@ export function calculateScrabbleScore(word) {
     ["F", 4],
     ["G", 2],
     ["H", 4],
+    ["I", 1],
+    ["J", 8],
+    ["K", 5],
+    ["L", 1],
+    ["M", 3],
+    ["N", 1],
+    ["O", 1],
+    ["P", 3],
+    ["Q", 10],
+    ["R", 1],
+    ["S", 1],
+    ["T", 1],
+    ["U", 1],
+    ["V", 4],
+    ["W", 4],
+    ["X", 8],
+    ["Y", 4],
+    ["Z", 10],
   ];
 
   let score = 0;
@@ -25,11 +43,7 @@ export function calculateScrabbleScore(word) {
 //    - This is the "green" stage in the TDD cycle (red -> green -> refactor)
 
 // 3. Look over the code. Make changes to simplify or improve it if you can. When you're done with changes, run the tests again. This checks that your changes didn't break anything.
-<<<<<<< HEAD
-=======
 
-
- // Example usage and test cases
- //const words = ["hello", "world", "Scrabble", "QUICK", "crazy", ""]; 
- //words.forEach(word => { console.log(`The Scrabble score for "${word}" is: ${calculateScrabbleScore(word)}`); });
->>>>>>> 84db762076e2165134e840da6448df3b530e25d0
+// Example usage and test cases
+//const words = ["hello", "world", "Scrabble", "QUICK", "crazy", ""];
+//words.forEach(word => { console.log(`The Scrabble score for "${word}" is: ${calculateScrabbleScore(word)}`); });
