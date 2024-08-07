@@ -8,5 +8,16 @@ import { expect } from "vitest";
 //    - This is the "red" stage in the TDD cycle (red -> green -> refactor)
 
 test("Score for A = 1", () => {
-  expect(calculateScrabbleScore('A')).toEqual(1);
+  expect(calculateScrabbleScore("A")).toEqual(1);
+});
+
+test.each([
+  ["ABBA", 8],
+  ["HAD", 7],
+])("calculateScrabbleScore(%s) -> %i", (word, expected) => {
+  expect(calculateScrabbleScore(word)).toBe(expected);
+});
+
+test("result for Abba should be 8", () => {
+  expect(calculateScrabbleScore("ABBA")).toBe(8);
 });
