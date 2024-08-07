@@ -1,4 +1,4 @@
-import { calculateScrabbleScore } from "./scrabble-score";
+import { calculateScrabbleScore, letters } from "./scrabble-score";
 import { test } from "vitest";
 import { expect } from "vitest";
 
